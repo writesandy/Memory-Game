@@ -8,15 +8,15 @@ import "./App.css";
 class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
+    clicked: [],
+    score: 0,
+    topScore: 0,
     desserts
   };
 
-  removeDessert = id => {
-    // Filter this.state.friends for friends with an id not equal to the id being removed
-    const desserts = this.state.desserts.filter(dessert => desserts.id !== id);
-    // Set this.state.friends equal to the new friends array
-    this.setState({ desserts });
-  };
+  handleClick = (id) => {
+    console.log("clicked", id);
+  }
 
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
@@ -25,13 +25,11 @@ class App extends Component {
         <Title>Decadent Dessert</Title>
         {this.state.desserts.map(dessert => (
           <FriendCard
-            removeDessert={this.removeDessert}
             id={dessert.id}
             key={dessert.id}
             name={dessert.name}
             image={dessert.image}
-            occupation={dessert.occupation}
-            location={dessert.location}
+            handleClick={this.handleClick}
           />
         ))}
       </Wrapper>
