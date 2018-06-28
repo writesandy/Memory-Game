@@ -18,7 +18,7 @@ class App extends Component {
     console.log("clicked", id);
   }
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
+   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
       <Wrapper>
@@ -29,6 +29,7 @@ class App extends Component {
             key={dessert.id}
             name={dessert.name}
             image={dessert.image}
+            clickCounter={desserts.clickCount}
             handleClick={this.handleClick}
           />
         ))}

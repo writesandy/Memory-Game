@@ -3,84 +3,72 @@
     "id": 1,
     "name": "Chocolate Wedding Cake",
     "image": "https://d1alt1wkdk73qo.cloudfront.net/images/guide/b711583d95b64cea880d127d637fb4fa/640x478_ac.jpg",
-    "occupation": "",
-    "location": ""
+    "clickCount": 0
   },
   {
     "id": 2,
     "name": "Chocolate Ganache Heart Cake",
     "image": "https://cdn3.tmbi.com/secure/RMS/attachments/37/1200x1200/Chocolate-Praline-Layer-Cake_exps144383_CW2235114A10_11_5bC_RMS.jpg",
-    "occupation": "",
-    "location": ""
+    "clickCount": 0
   },
   {
     "id": 3,
     "name": "Black Forest Cake",
     "image": "http://images.tastespotting.com/thumbnails/838512.jpg",
-    "occupation": "",
-    "location": ""
+    "clickCount": 0
   },
   {
     "id": 4,
     "name": "Chocolate Layer Cake",
     "image": "https://cdn-image.foodandwine.com/sites/default/files/styles/medium_2x/public/200512-r-xl-fudgy-chocolate-layer-cake.jpg?itok=rguBcYjh",
-    "occupation": "",
-    "location": ""
+    "clickCount": 0
   },
   {
     "id": 5,
     "name": "Strawberry Chocolate Cake",
     "image": "https://omgchocolatedesserts.com/wp-content/uploads/2016/05/Strawberry-Chocolate-Cake-1.jpg",
-    "occupation": "",
-    "location": ""
+    "clickCount": 0
   },
   {
     "id": 6,
     "name": "marshmallow cupcakes",
     "image": "https://i.pinimg.com/736x/96/d0/48/96d048903046f6426e4690fb6359c0c2--marshmallow-flowers-marshmallow-cupcakes.jpg",
-    "occupation": "",
-    "location": ""
+    "clickCount": 0
   },
   {
     "id": 7,
     "name": "Greige Cranrosemary",
     "image": "https://onmilwaukee.com/images/articles/static/Greige_cranrosemary.jpg",
-    "occupation": "",
-    "location": ""
+    "clickCount": 0
   },
   {
     "id": 8,
     "name": "Cream Puff",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeZ1W6M7_3OmftNyYl1BnaIsx4czFKkwh7uSfDK15HEMawZTAr",
-    "occupation": "",
-    "location": ""
+    "clickCount": 0
   },
   {
     "id": 9,
     "name": "Elegant Dessert Cups",
     "image": "http://www.pastrychef.com/thumbnail.asp?file=assets/images/large/elegant_dessert_cups_round_curls_large.jpg&maxx=350&maxy=0",
-    "occupation": "",
-    "location": ""
+    "clickCount": 0
   },
   {
     "id": 10,
     "name": "Wedding Cupcakes",
     "image": "http://s6.weddbook.com/t4/2/0/5/2050115/welcome-to-dainty-delights-wedding-cupcakes-pinterest.jpg",
-    "occupation": "",
-    "location": ""
+    "clickCount": 0
   },
   {
     "id": 11,
     "name": "Sweet Chocolate Cake",
     "image": "https://i.pinimg.com/736x/43/a6/a3/43a6a347fd7b3e0b2b2ee9ae25ea7c03--sweet--cakes-cake-chocolate.jpg",
-    "occupation": "Superhero",
-    "location": "Earth"
+    "clickCount": 0
   },
   {
     "id": 12,
     "name": "Royal Wedding Cake",
     "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/5/9/0/FN_royal-wedding-cake-Virgin-Commons-Club-Chicago_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1525894765686.jpeg",
-    "occupation": "",
-    "location": ""
+    "clickCount": 0
   }
 ]
