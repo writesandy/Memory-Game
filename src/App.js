@@ -17,6 +17,7 @@ class App extends Component {
     console.log("clicked", id);
     this.updateClickCounter(id);
     //add update to state for score
+    //if the top score is lower than the current score update top score.
   }
 
   updateClickCounter = (id) => {
