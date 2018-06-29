@@ -8,7 +8,6 @@ import "./App.css";
 class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
-    clicked: [],
     score: 0,
     topScore: 0,
     desserts
@@ -16,9 +15,25 @@ class App extends Component {
 
   handleClick = (id) => {
     console.log("clicked", id);
+    this.updateClickCounter(id);
+    //add update to state for score
   }
 
-   // Map over this.state.friends and render a FriendCard component for each friend object
+  updateClickCounter = (id) => {
+    desserts.forEach(dessert => {
+      if (dessert.id === id) {
+        dessert.clickCount++;
+        if (dessert.clickCount > 1){
+          console.log('Game Over')
+        }
+    }
+
+  })
+}
+
+
+
+  // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
       <Wrapper>
@@ -29,7 +44,6 @@ class App extends Component {
             key={dessert.id}
             name={dessert.name}
             image={dessert.image}
-            clickCounter={desserts.clickCount}
             handleClick={this.handleClick}
           />
         ))}
