@@ -6,7 +6,7 @@ const Nav = props => (
     <div className="container-fluid">
       <div className="navbar-header">
         <a href="/" className="navbar-brand">
-          Clicky Game
+          Dessert Memory Game
         </a>
       </div>
       <div className="text-center">
