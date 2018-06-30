@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import FriendCard from "./components/FriendCard";
 import JSONdesserts from "./dessert.json";
 import "./App.css";
 import Nav from "./components/Nav";
